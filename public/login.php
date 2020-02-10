@@ -2,7 +2,7 @@
 
 ?>
 <head>
-	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="../css/main.css" />
 	<!-- <link rel="stylesheet" href="css/homeAboutFaq.css" /> -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
@@ -17,7 +17,7 @@
 ?>
 
 <body>
-	<?php include("includes/header.php");?>
+	<?php include("../includes/header.php");?>
 	<main>
 	<p class="instructions">Login</p>
 	<div class="form">
@@ -59,6 +59,6 @@
 
 <?php
 
-include("includes/footer.php");
+include("../includes/footer.php");
 
 ?>

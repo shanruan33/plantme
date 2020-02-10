@@ -6,12 +6,12 @@
 <head>
     <title>FAQ</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/homeAboutFaq.css" />
+    <link rel="stylesheet" href="../css/homeAboutFaq.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     
-        <?php include("includes/headerShan.php")?>
+        <?php include("../includes/headerShan.php")?>
     
     <main id = "FAQ">
         <h1>Frequently Asked Questions</h1>
@@ -42,7 +42,7 @@
     </main>
 
    
-        <?php include("includes/footerShan.php")?>
+        <?php include("../includes/footerShan.php")?>
     
 
 </body>

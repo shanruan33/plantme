@@ -3,7 +3,7 @@
 ?>
 <body>
 <head>
-	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="../css/main.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
@@ -11,14 +11,14 @@
 
 
 	<?
-	include("includes/header.php");
+	include("../includes/header.php");
 
 	?>
 
 
 <main>
 
-	<?include("includes/dbconfig.php");?>
+	<?include("../includes/dbconfig.php");?>
 
 
 	<p class="instructions">Register</p>
@@ -78,7 +78,7 @@
 
 <?php
 
-include("includes/footer.php");
+include("../includes/footer.php");
 
 ?>
 

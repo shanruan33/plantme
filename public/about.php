@@ -6,16 +6,16 @@
 <head>
     <title>About PlantMe</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/homeAboutFaq.css" />
+    <link rel="stylesheet" href="../css/homeAboutFaq.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     
-        <?php include("includes/headerShan.php")?>
+        <?php include("../includes/headerShan.php")?>
     
     <div id="about">
         <h1>OUR STORY</h1>
-        <img id="aboutpic" src="image/about.png" />
+        <img id="aboutpic" src="../image/about.png" />
         
         <p>Tulips, Daisies, Roses, and more; flowers are truly some of the most beautiful, elegant pieces of nature on the planet. We celebrate the diversity and uniqueness of flowers with PlantMe. We believe that flowers are appropriate for almost any occasion. A flower can say so much in a gift: love, romance, respect, congratulations, and more. It truly is the gift and gesture that says it all.<br><br>
 
@@ -31,7 +31,7 @@
     </div>
 
     
-        <?php include("includes/footerShan.php")?>
+        <?php include("../includes/footerShan.php")?>
     
 
 </body>
