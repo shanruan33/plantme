@@ -4,3 +4,6 @@ PlantMe is a plant subscription box website for GTA region in Canada. Research s
 ## •	Language and tools: PHP, SQL, JavaScript, HTML, CSS, jQuery
 
 ![](image/landing-page.png)
+
+## Landing page video:
+https://youtu.be/6JRnlORW_IY
