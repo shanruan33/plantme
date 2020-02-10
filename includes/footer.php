@@ -23,9 +23,9 @@
 			<a href="signup.php">Sign Up</a><br />
 			<a href="login.php">Login</a></P>
 		</div>
-		<div class="fb"><img src="assets/facebook.svg" style="width:50px; height:50px;"/></div>
-		<div class="twitter"><img src="assets/twitter.svg" style="width:50px; height:50px;" /></div>
-		<div class="insta"><img src="assets/instagram.svg" style="width:50px; height:50px;" /></div>
+		<div class="fb"><img src="../assets/facebook.svg" style="width:50px; height:50px;"/></div>
+		<div class="twitter"><img src="../assets/twitter.svg" style="width:50px; height:50px;" /></div>
+		<div class="insta"><img src="../assets/instagram.svg" style="width:50px; height:50px;" /></div>
 	</div>
 </footer>
 

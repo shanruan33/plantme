@@ -74,7 +74,7 @@
     <img id="contact_img" src="../image/contact.png" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="../slider.js" type="text/javascript"></script>
+    <script src="../src/slider.js" type="text/javascript"></script>
 
     <?php include("../includes/footerShan.php") ?>
 

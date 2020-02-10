@@ -22,9 +22,9 @@
 			<a href="login.php">Login</a>
 		</div>
 		<div class="icon">
-		<img src="assets/facebook.svg" style="width:50px; height:50px;"/>
-		<img src="assets/twitter.svg" style="width:50px; height:50px;" />
-		<img src="assets/instagram.svg" style="width:50px; height:50px;" />
+		<img src="../assets/facebook.svg" style="width:50px; height:50px;"/>
+		<img src="../assets/twitter.svg" style="width:50px; height:50px;" />
+		<img src="../assets/instagram.svg" style="width:50px; height:50px;" />
 		</div>	
 </footer>
 

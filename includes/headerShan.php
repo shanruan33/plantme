@@ -1,7 +1,7 @@
 <?php
 ?>
 <header>
-	<img src="assets/logo.svg" />
+	<img src="../assets/logo.svg" />
 	<nav id="menu">
 		<a href="index.php">Home</a>
 		<a href="user-article.php">Plant Wiki</a>

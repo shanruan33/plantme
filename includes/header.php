@@ -2,7 +2,7 @@
 ?>
 <header>
 	<div class="menu">
-		<div class="logo"><img src="assets/logo.svg" /></div>
+		<div class="logo"><img src="../assets/logo.svg" /></div>
 		<div clas="home"><a href="index.php">Home</a></div>
 		<div class="about"><a href="about.php">About</a></div>
 		<div class="wiki"><a href="user-article.php">Plant Wiki</a></div>
