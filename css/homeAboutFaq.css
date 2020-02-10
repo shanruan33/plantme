@@ -1,0 +1,350 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden;  */
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+.title img{
+    width:100vw;
+    float:left;
+    margin:0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.content {
+    position: absolute;
+    top:38vw;
+    left:57vw;   
+}
+
+h1,
+h2,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.title button {
+    background-color: #21AE9A;
+    width: 12rem;
+    height: 3rem;
+    border-style: none;
+    border-width: 0;
+    border-radius: 3px;
+    text-decoration-color: white;
+    font-size: 1.2rem;
+    float: right;
+
+}
+
+
+.main1,
+.main2  {
+    display: block;
+    
+}
+.main1 img {
+    display: block;
+    float: right;
+    /* vertical-align: top; */
+
+    margin: 0 0 0 0;
+    max-width: 50vw;
+
+}
+
+#p1_h1 {
+    display:inline-block ;
+    margin:0 0 0 0;
+    padding-top: 10rem;
+    padding-left:5rem;   
+}
+
+#p1_p {
+    padding-left:5rem;  
+    max-width: 38vw;  
+    padding-bottom: 12rem;  
+}
+
+
+.main2 img {
+    display: block;
+    float: left;
+    /* vertical-align:top; */
+    margin: 0 0 0 0;
+    max-width: 50vw;
+
+}
+
+#p2_h1 {
+    display:block ;
+    float: right;
+    margin:0 0 0 0;
+    padding-top: 10rem;
+    padding-right:12.5rem;
+      
+}
+
+#p2_p {
+    float:right;
+    padding-right:5rem;  
+    max-width: 38vw;    
+}
+
+
+#ins,
+#contact,
+#contact_img {
+    display: block;
+}
+
+#ins {
+    display: inline-block;
+    margin-bottom: 4rem;
+}
+
+#ins h1 {
+    position: relative;
+    padding-left:5rem; 
+    margin-bottom: .5rem;
+}
+
+#ins img {
+    max-width: 23vw;
+}
+
+#contact {
+    display: inline-block;
+    background-color: #FCF4EF;
+    height:16rem;
+    padding-left:5rem; 
+    width:48.5%;
+    /* float:left; */
+}
+#contact_img {
+    position: relative;
+    
+    height:16rem;
+    float:right;
+    /* object-fit: cover; */
+    
+}
+
+
+/*header css ---- start*/
+header {
+    width: 100%;
+    height:70px;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    white-space: nowrap;
+    word-wrap: none;
+    display: block;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.05rem;
+    padding-left: 25px;
+}
+
+header img {  
+    display:inline-block;
+    padding-top: 5px;
+    margin-left: 150px;
+
+}
+
+header nav {
+    display:inline-block;
+}
+
+#user-menu {
+    display: inline-block;
+    padding-left:25vw;
+}
+
+nav a:visited {
+    color: #EA5E45;
+}
+​
+nav>a:hover {
+    color: #EA5E45;
+}
+
+/*header css ---- end*/
+
+
+
+/*footer css ---- start*/
+footer{
+    background-color: #12584E;
+    display:block;
+    height:180px;
+    padding-left: 10.5vw;
+    padding-right: 10.5vw;
+    padding-top: 3.5rem;
+    margin: 0;
+    top:0;
+    
+}
+
+
+.contact p{
+    padding-top:0;
+    margin-top:0;
+    width:10rem;
+    line-height: 1.3rem;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+
+div.contact {
+    position: absolute;
+    
+}
+​
+
+div.contact, div.fullmenu {
+    display: inline-block;
+}
+
+
+
+.fullmenu {
+    padding-left: 10rem;
+    padding-top:.2rem;
+}
+
+.fullmenu {
+    width:4rem;
+    
+}
+.fullmenu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 1rem;
+    
+}
+​
+
+​
+footer a :link {
+  color: white;
+  text-decoration: none;
+}
+​
+footer a:visited {
+  color: #EA5E45;
+}
+​
+footer a :hover {
+  color: #EA5E45;
+}
+​
+footer a :active {
+  color: blue;
+}
+
+
+div.icon {
+    float:right;
+    width: 400px;
+    display:flex;
+    justify-content: space-evenly;
+    
+   
+}
+/*footer css ---- end*/
+
+/*faq*/
+#FAQ {
+    background-color: #F4F5F4;
+    /* font-size: 1rem; */
+    margin: 0 0 0 0;
+    padding: 1rem 0 4rem 0;
+    
+}
+
+
+
+#FAQ h1 {
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 7vw;
+}
+
+.QNA h2 {
+    font-size:1rem ;
+}
+
+.QNA {
+    background-color: white;
+    margin-left: 7vw;
+    margin-right: 7.5vw;
+    margin-top: 0;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2rem;
+    line-height: 2rem;
+}
+/*faq*/
+
+/*about*/
+#about h1 {
+    position: relative;
+    font-size: 3rem;
+    left:7vw;
+}
+
+#aboutpic {
+    position: relative;
+    width:85.5vw;
+    left: 7vw;
+    right: auto;
+    margin: 0 0 0 0;
+
+}
+
+#about p {
+    position: relative;
+    font-size: 1rem;
+    margin-left: 7vw;
+    margin-right: 7.5vw;
+    margin-top: 0;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
+    background-color: #F4F5F4;
+    line-height: 2rem;
+}
+
+
+
+

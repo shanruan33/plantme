@@ -1,0 +1,280 @@
+body{
+	display:flex;
+	flex-direction: column;
+	padding:0;
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+menu{
+	background-color: red;
+	padding-right:13vh;
+}
+
+header{
+  height:10%;
+  width:100%;
+}
+
+.menu{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas: "logo home wiki about faq auto auto auto profile signup login";
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    height:50%;
+    padding-left:10%;
+    padding-bottom:1%;
+    padding-top:3vh;
+    padding-right:10%;
+    justify-items: center;
+    align-items: baseline;
+}
+
+.logo{
+    grid-area:logo;
+}
+
+.home{
+    grid-area:home;
+}
+.wiki{
+    grid-area:wiki;
+}
+.about{
+    grid-area:about;
+}
+.faq{
+    grid-area:faq;
+}
+.login{
+    grid-area:login;
+}
+.signup{
+    grid-area:signup;
+}
+.profile{
+    grid-area:profile;
+}
+
+header a:link {
+    color: black;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+header a:visited {
+    color: #EA5E45;
+}
+
+header a:hover {
+    color: #EA5E45;
+}
+
+header a:active {
+    color: blue;
+}
+
+p{
+		/* width:50%; */
+		color:black;
+		font-weight: bold;
+
+	}
+
+main{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #EAEDEA;
+		width:100%;
+		height:100%;
+		padding-top:2%;
+		padding-bottom:2%;
+}
+
+.instructions{
+	width:50%;
+}
+
+.form{
+	text-align:center;
+	width:100%;
+	height:100%;
+}
+
+label{
+		color:black;
+		font-weight: bold;
+		width:25%;
+}
+.holder{
+	width:50%;
+}
+.halfq{
+	width:50%;
+	display:flex;
+	flex:1;
+}
+.fullq{
+	width:100%;
+	display:flex;
+	flex:grow;
+}
+.quartq{
+	width:25%;
+	flex:1;
+}
+
+form{
+	width:50%;
+	background-color:white;
+	display:inline-block;
+	text-align:left;
+	padding:2%;
+	box-shadow: 2px 2px 4px 5px #E9E9E9;
+}
+
+form [type="submit"]{
+	/* width:30%; */
+	margin-right:40%;
+	margin-left:40%;
+	background-color:#EA5E45;
+	border-radius: 4px;
+	flex:1;
+	padding: 2%;
+	color:white;
+}
+
+.thankyou{
+	width:50%;
+	height:50%;
+	padding:5%;
+	align-self: center;
+	background-color: white;
+}
+
+.plantbox{
+	display:flex;
+	flex-direction: row;
+}
+
+.plant{
+	display:inline-block;;
+}
+
+.type1{
+	padding-left:10%;
+	width:25%;
+}
+.type2{
+	padding-left:10%;
+	padding-right:10%;
+	width:100%;
+}
+.type3{
+	padding-left:40%;
+	padding-bottom:10%;
+}
+
+.question{
+	color:red;
+}
+
+#wrap{
+	display:flex;
+}
+
+footer{
+  	background-color: #12584E;
+  	display:flex;
+  	flex-direction:row;
+	bottom:0;
+	height:5%;
+}
+
+P{
+  width:100%;
+}
+
+.feeties{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas: "contact fullmenu auto auto auto auto auto auto fb twitter insta";
+    font-family: 'Roboto', sans-serif;
+    background-color: #12584E;
+    height:50%;
+    padding-left:10%;
+    padding-bottom:1%;
+    padding-top:3%;
+    padding-right:10%;
+	width:100%;
+    justify-items: center;
+}
+
+.contact{
+    grid-area:contact;
+}
+
+.fullmenu{
+    grid-area:fullmenu;
+}
+.fb{
+    grid-area:fb;
+}
+.twitter{
+    grid-area:twitter;
+}
+.insta{
+    grid-area:insta;
+}
+
+footer P{
+  color:white;
+}
+
+footer a:link {
+    color: white;
+	text-decoration: none;
+}
+
+footer a:visited {
+    color: #EA5E45;
+}
+
+footer a:hover {
+    color: #EA5E45;
+}
+
+footer a:active {
+    color: blue;
+}
+
+/* Lily CSS */
+.plantWiki {
+    background-color: white;
+    padding: 3rem;
+    margin: 2rem;
+}
+.plantImg {
+    width: 50%;
+    float: left;
+    margin: 2rem;
+}
+.parentContainer {
+    /* border: #12584E;
+    border-style: solid; */
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.childContainer {
+    width:60%;
+}
+.wikipic{
+    width:40%;
+    padding-left: 10rem;
+}
